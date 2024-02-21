@@ -1,0 +1,25 @@
+ body {
+    background-color: #fff; /*bgc#fff */
+    color: #555;
+} /* c#555*/
+
+p {font-family: Arial, Helvetica, sans-serif;}
+header {
+    background-color: #002171; /* bgc#002171*/
+    color: #fff;
+}
+nav {
+    background-color: #bbdefb;
+}
+h1 {
+    margin-bottom: 0; /* mb0 */
+}
+h2 {
+    color: #1976d2; 
+}
+dt {
+    color: #002171;
+}
+.resort {
+    color: #1976d2;
+}
