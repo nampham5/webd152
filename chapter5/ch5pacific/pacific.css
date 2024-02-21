@@ -24,18 +24,28 @@ nav a {
 h1 {
     margin-bottom: 0; /* mb0 */
 }
-h1,h2,h3 {
+h1,h2,h3,footer {
     font-family: Georgia, 'Times New Roman',serif;
 }
 h2 {
     color: #1976d2; 
 }
 h3 {
-    color: #003;
+    color: #000033;
 }
 dt {
     color: #002171;
 }
+footer {
+    line-height: 75%;
+    font-style: italic;
+    text-align: center;
+
+}
 .resort {
+    font-weight: bold;
     color: #1976d2;
+}
+#contact {
+    font-size: 90%; /*fz90%*/
 }
