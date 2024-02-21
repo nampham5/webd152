@@ -5,7 +5,7 @@
 } 
 
 header {
-    background-color: #002171; /* bgc#002171*/
+    background-color: #000032; /* bgc#002171*/
     color: #fff;
     background-image: url(images/sunset.jpg); /* bgi */
     background-position: right;
@@ -18,11 +18,20 @@ nav {
     background-color: #bbdefb;
     font-weight: bold;
 }
+nav a {
+    text-decoration: none; /* txd */
+}
 h1 {
     margin-bottom: 0; /* mb0 */
 }
+h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman',serif;
+}
 h2 {
     color: #1976d2; 
+}
+h3 {
+    color: #003;
 }
 dt {
     color: #002171;
