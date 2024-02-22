@@ -11,7 +11,7 @@ header {
     background-position: right;
     background-repeat: no-repeat; /* bgr */
     line-height: 400%; /* 400% */
-    text-align: 1em;
+    text-indent: 1em;
 
 }
 nav {
