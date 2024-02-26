@@ -23,17 +23,26 @@ header {
     background-repeat: no-repeat; /* bgr */
     line-height: 400%; /* 400% */
     text-indent: 1em;
+    padding-top: 15px;
+    text-align: center;
 
 }
 nav {
-    background-color: #bbdefb;
+    background-color: #fff;
     font-weight: bold;
+    padding: 1em;
+    text-align: center;
 }
 nav a {
     text-decoration: none; /* txd */
 }
+main {
+    padding: 1px 20px 20px;
+    display: block;
+}
 h1 {
     margin-bottom: 0; /* mb0 */
+    margin-top: 0;
 }
 h1,h2,h3,footer {
     font-family: Georgia, 'Times New Roman',serif;
