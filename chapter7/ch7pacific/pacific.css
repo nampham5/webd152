@@ -35,11 +35,20 @@ header {
     text-align: center;
 
 }
+header a {
+    text-decoration: none; /*tdn */
+}
+header a:link, header a:visited {
+    color: #fff;
+}
+header a:hover {
+    color: #90c7e3;
+}
 nav {
     float: left;
-    font-size: 120%;
+    /* font-size: 120%; */
     font-weight: bold;
-    padding: 1.5em;
+    padding: 1.5em 0.5em;
     width: 160px;
     
 }
