@@ -137,7 +137,7 @@ footer {
         justify-content: space-around;
     }
     nav li {
-        border-block-start: none;
+        border-bottom: none;
         
     }
     .flow {
