@@ -22,10 +22,9 @@ header {
     background-position: right;
     background-repeat: no-repeat; /* bgr */
     background-size: contain;
-    line-height: 400%; /* 400% */
     /* height: 120px; */
-    text-indent: 1em;
     /* padding-top: 30px; */
+    padding: 0.5em auto;
     text-align: center;
 
 }
@@ -133,11 +132,15 @@ footer {
 
 table {
     border-bottom: 2px solid #1976d2;
-    border-collapse: collapse;
+    border-collapse: separate;
+}
+th {
+    background-color: #1976d2;
+    color: #fff;
 }
 td, th {
     padding: 0.5em;
-    /* border: 2px solid #39c; */
+     /* border: 2px solid #39c;  */
 }
 td {
     text-align: center; /* tac*/
@@ -168,9 +171,52 @@ tr:nth-last-of-type(odd) {
         margin-right: 1em;
     }
 }
-@media (max-width:420px) {
+@media (max-width:600px) {
     header {
         background-image: none;
+    }
+
+    #special table {
+        display: block;
+        border-bottom: none;
+    }
+    #special td,
+    #special th {
+        display: block;
+    }
+    #special thead {
+        display: none;
+    }
+    td.package::before {
+        content: "Package:";
+    }
+    td.description::before {
+        content: "Description:";
+    }
+    td.nights::before {
+        content: "Nights:";
+    }
+    td.cost::before {
+        content: "Cost:";
+    }
+    td.package,
+    td.description,
+    td.nights,
+    td.cost {
+        padding-left: 35%;
+        position: relative;
+        text-align: left;
+        font-size: 4vw;
+    }
+    td::before {
+        position: absolute;
+        top: 10px;
+        left: 0.5em;
+        font-weight: bold;
+        color: #1976d2;
+    }
+    td:last-of-type {
+        border-bottom: 2px solid #1b69b2;
     }
 }
 @media (min-width: 1024px) {
