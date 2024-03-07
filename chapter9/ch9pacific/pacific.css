@@ -130,6 +130,25 @@ footer {
     height: 300px; 
 
 }
+
+table {
+    border-bottom: 2px solid #1976d2;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0.5em;
+    /* border: 2px solid #39c; */
+}
+td {
+    text-align: center; /* tac*/
+}
+.text {
+    text-align: left; /* ta:l*/
+}
+tr:nth-last-of-type(odd) {
+    background-color: #ffcd6f;
+}
+
 @media (min-width: 600px) {
     nav ul {
         display: flex; /*df*/
