@@ -152,6 +152,14 @@ tr:nth-last-of-type(odd) {
     background-color: #ffcd6f;
 }
 
+form{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+input, textarea {margin-bottom: 0.5em;}
+
+
 @media (min-width: 600px) {
     nav ul {
         display: flex; /*df*/
@@ -170,6 +178,14 @@ tr:nth-last-of-type(odd) {
         flex: 1;
         margin-right: 1em;
     }
+    form{
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    gap: 1em;
+    max-width: 30em;
+    width: 60%;
+}
+
 }
 @media (max-width:600px) {
     header {
