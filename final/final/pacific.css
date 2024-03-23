@@ -127,7 +127,12 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%; /*bgz100%100%*/
     height: 300px; 
-
+}
+#abouthero {
+    background-image: url(images/abouthero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
 }
 
 table {
